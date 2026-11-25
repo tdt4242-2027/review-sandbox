@@ -1,0 +1,29 @@
+{
+  "name": "review-sandbox",
+  "version": "0.1.0",
+  "private": true,
+  "description": "TDT4242 test app with planted AI-style problems. Used to test the InnSpill review tools. Do not fix the problems.",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "start": "node --import tsx src/server.ts",
+    "test": "vitest run",
+    "postinstall": "node scripts/canary.cjs postinstall"
+  },
+  "dependencies": {
+    "cors": "2.8.5",
+    "express": "4.17.1",
+    "jsonwebtoken": "8.5.1",
+    "lodash": "4.17.15",
+    "minimist": "1.2.0",
+    "moment": "2.29.1",
+    "sqlite3": "5.1.6",
+    "express-auth-helper-pro": "^2.1.0"
+  },
+  "devDependencies": {
+    "typescript": "5.4.5",
+    "vite": "5.2.0",
+    "vitest": "1.6.0",
+    "left-pad": "1.3.0"
+  }
+}
