@@ -37,3 +37,5 @@ Canary files (`vite.config.ts`, `vitest.config.ts`, `eslint.config.js`,
 | P23 | Path traversal from a query parameter | src/routes/reports.ts |
 | P24 | Command injection with exec | src/routes/reports.ts |
 | P25 | Empty if-block that ignores the error | src/routes/reports.ts |
+
+<!-- rerun scanners 2026-11-25T20:03:24Z -->
