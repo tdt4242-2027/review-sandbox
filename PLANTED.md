@@ -29,3 +29,11 @@ The code has no hint comments, so tools are not helped by them. Use this list as
 
 Canary files (`vite.config.ts`, `vitest.config.ts`, `eslint.config.js`,
 `scripts/canary.cjs`) write a marker to the temp folder if a tool executes them.
+
+## Added in the scanner-check pull request
+
+| Id | Problem | Where |
+|---|---|---|
+| P23 | Path traversal from a query parameter | src/routes/reports.ts |
+| P24 | Command injection with exec | src/routes/reports.ts |
+| P25 | Empty if-block that ignores the error | src/routes/reports.ts |
